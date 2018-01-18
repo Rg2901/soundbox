@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/home/YOUR_USER/fredboat
+WorkingDirectory=/home/Rg2901/fredboat
 ExecStart=/usr/bin/java -jar FredBoat.jar
 Restart=always
 
